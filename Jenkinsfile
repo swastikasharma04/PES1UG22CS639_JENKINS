@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     echo 'Deploying the application...'
-                    sh 'echo "Deploying my_program"'
+                    sh 'exit 1'
                 }
             }
         }
